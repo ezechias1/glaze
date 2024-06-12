@@ -15,7 +15,7 @@ color: white;
 border: none;
 border-radius: 5px;
 cursor: pointer;
-transition: background-color 0.5 ease;
+transition: background-color 0.5s ease;
 }
 
 .add-button{
@@ -36,4 +36,40 @@ transition: background-color 0.5 ease;
 }
 .move-button:hover{
   background-color: hsl(268, 47%, 54%);
+}
+
+
+input[type="text"]{
+font-size: 1.6rem;
+padding: 10px;
+border: 2px solid hlsa(0 ,80%, 0.5);
+border-radius:5px;
+color: hsla(0, 0% 0.5 );
+
+}
+
+
+ol{
+  padding: 0%;
+}
+
+li{
+font-size: 2rem;
+font-size: bold;
+padding: 15px;
+background-color: beige;
+border: epx solid hsla(0, 0% 85% 0.75 );
+border-radius: 5px;
+display: flex;
+align-items: center;
+}
+
+.text{
+  flex: 1;
+}
+
+.delete-button, .move-button{
+  padding:  8px, 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;  
 }
