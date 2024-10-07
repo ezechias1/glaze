@@ -64,8 +64,12 @@ if(index > 0){
               Delete
             </button>
 
-            <button className="delete-button" onClick={() => deleteTask(index)}>
-              Delete
+            <button className="MOVE-BUTTON" onClick={() => moveTaskUp(index)}>
+              Up
+            </button>
+
+            <button className="MOVE-BUTTON" onClick={() => moveTaskDown(index)}>
+              Down
             </button>
           </li>
         ))}
